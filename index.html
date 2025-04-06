@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Biodata | shilviamlyni</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="Login">
+    <!-- Login Section -->
+    <section id="LoginSection">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Login</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form id="loginForm">
+              <div class="mb-3">
+                <label for="loginEmail" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="loginEmail" required />
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="loginPassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="loginPassword" required />
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="rememberMe" />
+                <label class="form-check-label" for="rememberMe">Remember Me</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Login Section -->
+
+    <!-- Navbar (visible after login) -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #043706c2" id="navbar" style="display: none">
+      <div class="container">
+        <a class="navbar-brand" href="#">shilviamlyni</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#AboutMe">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Gallery">Galeri</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Home Section -->
+    <section id="Home" style="display: none">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col text-center">
+            <h1>Hello Semua</h1>
+            <img src="img/WhatsApp Image 2025-04-06 at 04.25.39_52e99008.jpg" alt="shilviamlyni" width="200" class="rounded-circle img-thumbnail" />
+            <h2 class="display-4">Nikadek Shilvia Muliyani</h2>
+            <p class="lead">Mahasiswa UHN I Gusti Bagus Sugriwa Denpasar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Home Section -->
+
+    <!-- About Me Section -->
+    <section id="AboutMe" style="display: none">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-8 mb-6">
+            <p>
+              Hallo semua perkenalkan saya piaa, aku anak kedua dari 5 bersaudara aku punya satu kakak perempuan dan dia sudah menikah dan aku punya 3 adek laki-laki yang masih bersekolah,keluarga ku tinggal di Sulawesi Tenggara tepatnya di
+              Kota Kendari. Aku lahir pada tanggal 17 Mei 2006, aku mempunyai hobi yaitu menonton anime sejak aku masih duduk di bangku SMP hingga sekarang, untuk makanan favorite ku adalah mie ayam dan bakso.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Me Section -->
+
+    <!-- Gallery Section -->
+    <section id="Gallery" style="display: none">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>My Gallery</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/Galeri/jpg1.jpg" class="card-img-top" alt="Family" />
+              <div class="card-body">
+                <p class="card-text">Ini Bapak, Mama, dan kk perempuan ku</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/Galeri/jpg2.jpg" class="card-img-top" alt="My Friend" />
+              <div class="card-body">
+                <p class="card-text">Ini adalah Putry, Widya, dan Ayus</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/Galeri/jpg5.jpg" class="card-img-top" alt="My Boyfriend" />
+              <div class="card-body">
+                <p class="card-text">Ini adalah kakk Cinarrrr</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Gallery Section -->
+
+    <!-- Contact Section -->
+    <section id="Contact" style="display: none">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="contactName" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="contactName" />
+              </div>
+              <div class="mb-3">
+                <label for="contactEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="contactEmail" />
+              </div>
+              <div class="mb-3">
+                <label for="contactMessage" class="form-label">Pesan</label>
+                <textarea class="form-control" id="contactMessage" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <footer class="text-white text-center pb-5" style="background-color: #043706c2">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/shilviamlyni_" class="text-white fw-bold">shilviamlyni</a></p>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var loginForm = document.getElementById("loginForm");
+        loginForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Get email and password from form
+          var email = document.getElementById("loginEmail").value;
+          var password = document.getElementById("loginPassword").value;
+
+          // Hardcoded credentials for simplicity
+          if (email === "shilvia1755@gmail.com" && password === "Roronoazoro12") {
+            // Hide login section
+            document.getElementById("LoginSection").style.display = "none";
+
+            // Show navbar and other sections
+            document.getElementById("navbar").style.display = "block";
+            document.getElementById("Home").style.display = "block";
+            document.getElementById("AboutMe").style.display = "block";
+            document.getElementById("Gallery").style.display = "block";
+            document.getElementById("Contact").style.display = "block";
+          } else {
+            alert("Invalid credentials. Please try again.");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
